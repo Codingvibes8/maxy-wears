@@ -1,10 +1,16 @@
+
+
+
+
+
+
 const sampleData = {
   products: [
     {
       name: 'LOOSE FIT PIQUE JOGGER SWEATSHIRT',
       slug: 'loose-fit-pique-jogger-sweatshirt',
       category: "Men's Sweatshirts",
-      images: ['/assets/images/p1-1.jpeg', '/assets/images/p1-2.jpeg'],
+      images: ['/blue-sweatshirt.jpg', '/blue-sweatshirt2.jpg'],
       price: '59.99',
       brand: 'Nike',
       rating: '4.5',
@@ -13,13 +19,13 @@ const sampleData = {
       description:
         'Lacoste sporting elegance with an urban twist. Fall in love with this loose, cozy sweatshirt in super-comfortable double-face piqué.',
       isFeatured: true,
-      banner: '/assets/images/banner-1.jpeg',
+      banner: '/blue-sweatshirt3.jpg',
     },
     {
-      name: 'LACOSTE TENNIS X NOVAK DJOKOVIC SPORTSUIT JACKET',
-      slug: 'lacoste-tennis-x-novak-djokovic-sportsuit-jacket',
+      name: 'LACOSTE TENNIS X NOVAK DJOKOVIC SWEATSHIRT',
+      slug: 'lacoste-tennis-x-novak-djokovic-sweatshirt',
       category: "Men's Sweatshirts",
-      images: ['/assets/images/p2-1.jpeg', '/assets/images/p2-2.jpeg'],
+      images: ['/red-yellow.jpg', '/red-yellow2.jpg'],
       price: '199.90',
       brand: 'Lacoste',
       rating: '4.2',
@@ -28,13 +34,13 @@ const sampleData = {
       description:
         'Hit the courts like Novak Djokovic with this seamless stretch jacket, made to move your way.',
       isFeatured: true,
-      banner: '/assets/images/banner-2.jpeg',
+      banner: '/red-yellow3.jpg',
     },
     {
       name: 'SHOWERPROOF SPORTSUIT TRACK PANTS',
       slug: 'showerproof-sportsuit-track-pants',
       category: 'Track Pants',
-      images: ['/track-bottom.jpg', '/track-bottom2.jpg'],
+      images: ['/redPants.jpg', '/redPants2.jpg'],
 
       price: '149.95',
       brand: 'Nike',
@@ -48,14 +54,14 @@ const sampleData = {
       name: "MEN'S LACOSTE SPORT FRENCH CAPSULE TRACKSUIT PANTS",
       slug: 'mens-lacoste-sport-french-capsule-tracksuit-pants',
       category: 'Track Pants',
-      images: ['/assets/images/p4-1.jpeg', '/assets/images/p4-2.jpeg'],
+      images: ['/greenpants.jpg', '/greenpants2.jpg'],
       price: '125.95',
       brand: 'Lacoste',
       rating: '3.6',
       numReviews: 5,
       stock: 10,
       description:
-        'A tricolour design brings a distinctive edge to these lightweight tracksuit pants made of diamond taffeta. ',
+        'A design brings a distinctive edge to these lightweight tracksuit pants made of diamond taffeta. ',
     },
   ],
 }
