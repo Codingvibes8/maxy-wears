@@ -10,14 +10,16 @@ const Header = async () => {
     <header className="w-full border-b">
       <div className="wrapper flex-between">
         <div className="flex-start">
-          <Link href="/" className="flex-start">
+          <Link href="/" className="flex-start gap-2">
             <Image
               src="/shirt.svg"
-              width={48}
-              height={48}
+              width={50}
+              height={50}
               alt={`${APP_NAME} logo`}
-            />
-            {APP_NAME}
+            className={"rounded-2xl ring-4 ring-red-700 p-1"}/>
+           <span className={'text-2xl text-red-700 font-serif font-bold'}>
+             {APP_NAME}
+           </span>
           </Link>
         </div>
         <div className="space-x-2">
