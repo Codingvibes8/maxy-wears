@@ -7,7 +7,7 @@ import { APP_NAME } from '@/lib/constants'
 
 const Header = async () => {
   return (
-    <header className="w-full border-b">
+    <header className="w-full border-b bg-green-100 fixed top-0 left-0 z-50">
       <div className="wrapper flex-between">
         <div className="flex-start">
           <Link href="/" className="flex-start gap-2">
