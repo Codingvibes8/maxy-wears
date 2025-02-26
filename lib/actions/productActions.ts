@@ -1,6 +1,6 @@
 'use server'
 
-import { desc } from 'drizzle-orm'
+import { desc,eq } from 'drizzle-orm'
 
 import db from '@/db/db'
 import { products } from '@/db/schema'
